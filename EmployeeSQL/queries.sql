@@ -5,6 +5,7 @@ FROM employees AS e
 INNER JOIN salaries AS s ON 
 e.emp_no = s.emp_no;
 
+-- ORDER BY s.salary DESC
 -- 2. List first name, last name, and hire date for employees who were hired in 1986.
 
 SELECT e.first_name, e.last_name, e.hire_date
