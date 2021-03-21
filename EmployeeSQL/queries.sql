@@ -5,7 +5,8 @@ FROM employees AS e
 INNER JOIN salaries AS s ON 
 e.emp_no = s.emp_no;
 
--- ORDER BY s.salary DESC
+-- To find is April Foolsday! WHERE e.emp_no = 499942;
+-- Used this to change the order and see a lot of 40000, ORDER BY s.salary DESC
 -- 2. List first name, last name, and hire date for employees who were hired in 1986.
 
 SELECT e.first_name, e.last_name, e.hire_date
